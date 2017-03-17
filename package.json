@@ -1,9 +1,9 @@
 {
-  "name": "roon-extension-devialet-expert",
+  "name": "roon-extension-denon",
   "version": "1.0.0",
-  "description": "Roon Extension to let Roon control the Devialet Expert devices via RS232",
+  "description": "Roon Extension to let Roon control 2014-era Denon networked AV Receiver",
   "main": "app.js",
-  "author": "Roon Labs, LLC",
+  "author": "Andy Spinks",
   "license": "Apache-2.0",
   "dependencies": {
     "node-devialet-expert":         "github:roonlabs/node-devialet-expert",
