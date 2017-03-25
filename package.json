@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Roon Extension to let Roon control 2014-era Denon networked AV Receiver",
   "main": "app.js",
-  "author": "Andy Spinks",
+  "author": "musicfan145",
   "license": "Apache-2.0",
   "dependencies": {
     "node-devialet-expert":         "github:roonlabs/node-devialet-expert",
