@@ -10,12 +10,12 @@ var DevialetExpert       = require("node-devialet-expert"),
 var devialet = { rs232: new DevialetExpert() };
 
 var roon = new RoonApi({
-    extension_id:        'com.roonlabs.devialet.expert',
-    display_name:        'Devialet Expert Volume and Source Control',
-    display_version:     "1.0.0",
-    publisher:           'Roon Labs, LLC',
-    email:               'contact@roonlabs.com',
-    website:             'https://github.com/RoonLabs/roon-extension-devialet-expert',
+    extension_id:        'com.roonlabs.denon.avrx',
+    display_name:        'Denon AVR Volume and Source Control',
+    display_version:     "0.0.1",
+    publisher:           'Musicfan145',
+    email:               'andyspinks@gmail.com',
+    website:             'https://github.com/musicfan145/roon-remote-denon',
 });
 
 var mysettings = roon.load_config("settings") || {
